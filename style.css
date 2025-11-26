@@ -59,3 +59,14 @@
     font-size: 12px;
     font-weight: 700;
 }
+
+.signup__div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.signup__div--paragrf{
+    font-size: 16px;
+    font-weight: 400;
+}
