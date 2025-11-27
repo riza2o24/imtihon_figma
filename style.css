@@ -105,15 +105,30 @@
 }
 
 .hero__text{
-    width: 580px;
+    width: 780px;
     height: 708px;
     background-color: #E3CEE3;
-    padding: 45px;
+    padding: 75px;
 }
 
 .hero__text--image{
+    margin-left: 370px;
+    margin-bottom: 20px;
+}
+
+.qwert{
     display: flex;
-    justify-content: left;
+    gap: 50px;
+    position: absolute;
+    left: 980px;
+    top: 395px;
+}
+
+.trewq{
+    width: 90px;
+    height: 3px;
+    background-color: #9F86D9;
+    margin-top: 25px;
 }
 
 .hero__text--paragrf{
@@ -122,16 +137,30 @@
 }
 
 .hero__text--text{
-    font-size: 90px;
+    font-size: 140px;
     font-weight: 700;
-    color: white;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    color: #ffffff;
+    position: absolute;
+    left: 953px;
+    top: 425px;
+    font-family: "Lobster Two", sans-serif;
 }
+
+.hero__text--text2{
+    font-size: 140px;
+    font-weight: 700;
+    color: #9F86D9;
+    position: absolute;
+    left: 960px;
+    top: 425px;
+    font-family: "Lobster Two", sans-serif;
+}
+
 
 .hero__text--paragrff{
     font-size: 32px;
     font-weight: 700;
+    margin-top: 230px;
     font-family: "Lobster Two", sans-serif;
 }
 
