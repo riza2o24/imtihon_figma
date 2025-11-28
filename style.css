@@ -189,3 +189,26 @@
     font-size: 18px;
     font-weight: 700;
 }
+
+/* cards */
+
+.cards__text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #EDA62A;
+}
+
+.cards__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.cards__ul--li{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Lobster Two", sans-serif;
+}
