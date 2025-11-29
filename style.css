@@ -761,4 +761,18 @@
     font-weight: 700;
 }
 
+/* brend */
+.brand__text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #9F86D9;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.brand__box{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 40px;
+}
