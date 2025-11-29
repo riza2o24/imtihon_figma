@@ -329,6 +329,8 @@
 }
 
 .cards2__box2--paragrf{
+    display: flex;
+    align-items: center;
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -355,6 +357,8 @@
 }
 
 .cards2__box2--paragrfff{
+    display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 400;
 }
@@ -408,7 +412,7 @@
     width: 660px;
     height: 333px;
     border: 10px solid white;
-    background-color: #bea9f0;
+    background-color: #c0d8fc;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -432,7 +436,7 @@
 
 
 .box__text--btn{
-    padding: 10px 16px;
+    padding: 10px 18px;
     background-color: #9F86D9;
     color: white;
     border: none;
