@@ -124,8 +124,7 @@
     display: flex;
     gap: 50px;
     position: absolute;
-    left: 980px;
-    top: 395px;
+    margin-left: -220px;
 }
 
 .trewq{
@@ -145,8 +144,8 @@
     font-weight: 700;
     color: #ffffff;
     position: absolute;
-    left: 953px;
-    top: 425px;
+    margin-left: -230px;
+    margin-top: 30px;
     font-family: "Lobster Two", sans-serif;
 }
 
@@ -155,8 +154,8 @@
     font-weight: 700;
     color: #9F86D9;
     position: absolute;
-    left: 960px;
-    top: 425px;
+    margin-left: -220px;
+    margin-top: 30px;
     font-family: "Lobster Two", sans-serif;
 }
 
@@ -783,11 +782,11 @@
     margin-bottom: 90px;
 }
 
-.img__box{
+.img__boxx{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* footer */
@@ -807,7 +806,7 @@
 .footer__ul--li{
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
 }
 
 .footer__botton{
