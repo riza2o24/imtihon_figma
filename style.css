@@ -789,3 +789,22 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* footer */
+.footer__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.footer__ul--text{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer__ul--li{
+    font-size: ;
+    font-weight: ;
+}
