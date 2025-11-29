@@ -550,3 +550,215 @@
     color: #9F86D9;
 }
 
+
+/* image */
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.image__img{
+    width: 877px;
+    height: 230px;
+    background-image: url("image/bggg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image__img2{
+    width: 527px;
+    height: 230px;
+    background-image: url("image/30122865_7654348\ 1.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.QWERTYU{
+    position: absolute;
+    margin-left: 200px;
+}
+
+.image__img--tetx{
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: "Lobster Two", sans-serif;
+    color: #E35946;
+
+}
+
+.image__img--paragrf{
+    width: 260px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.image__img--btn{
+    margin: auto;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #9F86D9;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.image__img2--tetx{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: "Lobster Two", sans-serif;
+    color: #E35946;
+
+}
+
+.image__img2--paragrf{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.image__img2--btn{
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #E35946;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.quti{
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (2, 1fr);
+    justify-content: space-between;
+    margin-bottom: 90px;
+    gap: 30px;
+}
+
+.qutisi:first-child{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.qutisi:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.qutisi:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.qutisi__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.qutisi__box--tetx{
+    font-size: 32px;
+    font-weight: 700;
+    color: #9F86D9;
+}
+
+.qutisi__box--chiziq{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.qutisi__card{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    margin-bottom: 25px;
+}
+
+.qutisi__tetx--tetx{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.qutisi__card--box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+.qutisi__box--paragrf{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F86D9;
+}
+
+.qutisi__box--paragrff{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646667;
+}
+
+
+.qutisi__image{
+    width: 453px;
+    height: 284px;
+    background-image: url("image/qwert.png");
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.qutisi__imagee{
+    margin-top: 30px;
+    width: 453px;
+    height: 284px;
+    background-color: #C2E9FF;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.qutisi__image--tetx{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.qutisi__image--paragrf{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    margin-top: 8px;
+}
+
+.qutisi__image--btn{
+    padding: 9px 17px;
+    border: none;
+    border-radius: 4px;
+    background-color: #9F86D9;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
