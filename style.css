@@ -97,15 +97,16 @@
     font-weight: 400;
 }
 
+.header__image{
+    display: none;
+}
+
+
 /* hero */
 .hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header__image{
-    display: none;
 }
 
 .hero__text{
