@@ -218,6 +218,10 @@
 
 
 /* cards */
+.cards{
+    margin-bottom: 70px;
+}
+
 .cards__text{
     font-size: 30px;
     font-weight: 700;
@@ -228,12 +232,41 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
+}
+
+.card__box{
+    width: 458px;
+    height: 270px;
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 60px rgba(221, 221, 221, 0.432);
+}
+
+.card__box--paragrf{
+    width: 376px;
+    margin: auto;
+    font-size: 400;
+    font-weight: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.card__box--paragrff{
+    font-size: 18px;
+    font-weight: 700;
+    color: #9F86D9;
+    gap: 7px;
 }
 
 
-
-
+/* text */
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
