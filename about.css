@@ -74,10 +74,17 @@
 
 .about__image{
     width: 100%;
+
+}
+
+
+/* qwert */
+.qwert{
+    display: flex;
+    justify-content: center;
 }
 
 .about__texts{
-    margin-top: 50px;
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 700;
@@ -85,18 +92,19 @@
 
 
 .about__paragrff{
+    width: 1060px;
     font-size: 22px;
     font-weight: 700;
 }
 
 .about__paragrfff{
+    width: 1060px;
     font-size: 20px;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #646667;
 }
-
 
 .about__box{
     display: flex;
@@ -108,7 +116,11 @@
 
 .about__box--paragrf{
     font-size: 16px;
+    display: flex;
+    align-items: center;
     font-weight: 400;
+    margin-bottom: 12px;
+    gap: 10px;
 }
 
 
