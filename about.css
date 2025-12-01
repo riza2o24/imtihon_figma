@@ -265,11 +265,24 @@
 .texts{
     display: flex;
     align-items: center;
+    gap: 100px;
     justify-content: center;
+    margin-bottom: 90px;
 }
 
+.texts__text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
 
-
+.texts__paragrf{
+    width: 550px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #294646;
+}
 
 
 
