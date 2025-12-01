@@ -82,6 +82,7 @@
 .qwert{
     display: flex;
     justify-content: center;
+    margin-bottom: 90px;
 }
 
 .about__texts{
@@ -123,7 +124,44 @@
     gap: 10px;
 }
 
+.qwert__boxs{
+    width: 160px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF5F2;
+    margin-bottom: 45px;
+}
 
+.qwert__box{
+    text-align: center;
+}
+
+.qwert__box--text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.qwert__box--paragrf{
+    width: 227px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.qwert__text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.qwert__paragrf{
+    font-size: 20px;
+    font-weight: 400;
+    color: #294646;
+}
 
 
 
