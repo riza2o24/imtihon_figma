@@ -48,6 +48,160 @@
 }
 
 
+/* contact */
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact__text{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contact__paragrf{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #646667;
+    gap: 6px;
+}
+
+.contact__span{
+    color: #9F86D9;
+}
+
+.contact__image{
+    display: flex;
+    margin: auto;
+    width: 1193px;
+    height: 671px;
+}
+
+
+.contact__brend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.contact__brend--box{
+    display: flex;
+    gap: 18px;
+}
+
+.contact__brend--box--img{
+    height: 30px;
+}
+
+.contact__box--text{
+    font-size: 700;
+    font-weight: 20px;
+    margin-bottom: 6px;
+}
+
+.contact__box--paragrf{
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #294646;
+}
+
+/* login */
+.login{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.login__text{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.login__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__input--box{
+    width: 330px;
+    height: 50px;
+    border: 2px solid #646667;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 6px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.login__box--input{
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.login__inputs{
+    padding: 30px;
+    width: 672px;
+    height: 210px;
+    border: 2px solid #646667;
+    border-radius: 6px;
+}
+
+.login__inputs--textarea{
+    width: 672px;
+    height: 210px;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.login__btn{
+    margin-top: 20px;
+    padding: 20px 25px;
+    background-color: #9F86D9;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+
+.login__texts{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.login__paragrf{
+    width: 485px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+
+.login__paragrff{
+    width: 250px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 
@@ -63,18 +217,27 @@
 
 
 
+/* img */
+.brand__text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #9F86D9;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 
+.img{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
 
-
-
-
-
-
-
-
-
-
+.img__boxx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* footer */
 .footer__text{
