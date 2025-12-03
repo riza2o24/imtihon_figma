@@ -70,8 +70,37 @@
 
 
 
+/* brend */
 
+.contact__brend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 
+.contact__brend--box{
+    display: flex;
+    gap: 18px;
+}
+
+.contact__brend--box--img{
+    height: 30px;
+}
+
+.contact__box--text{
+    font-size: 700;
+    font-weight: 20px;
+    margin-bottom: 6px;
+}
+
+.contact__box--paragrf{
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #294646;
+}
 
 
 
