@@ -48,7 +48,35 @@
 }
 
 
+/* pages */
+.section{
+    padding: 80px;
+    width: 100%;
+    height: 742px;
+    background-color: #FFF5F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.section__text--text{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.section__text--paragrf{
+    width: 371px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.section__text--paragrff{
+    font-size: 20px;
+    font-weight: 400;
+}
 
 
 
