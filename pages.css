@@ -79,7 +79,15 @@
 }
 
 
-
+/* section2 */
+.section2{
+    width: 1440px;
+    background-image: url("icon/bg.png");
+    border: 2px solid #9F86D9;
+    margin-bottom: 70px;
+    height: 249px;
+    background-size: cover;
+}
 
 
 
