@@ -158,6 +158,13 @@
 }
 
 
+/* card2 */
+.card2__text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
 
 /* card */
 .card{
