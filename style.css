@@ -828,3 +828,12 @@
 .footer__botton--span{
     color: #9F86D9;
 }
+
+
+
+
+@media (max-width:428px) {
+    .conteiner{
+        padding: 0;
+    }
+}
