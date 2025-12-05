@@ -159,11 +159,22 @@
 
 
 /* card2 */
+.card2{
+    width: 410px;
+    height: 837px;
+    border: 2px solid #646667;
+    padding: 25px 50px;
+    box-shadow: 0 0 20px rgba(92, 92, 92, 0.61);
+}
+
+
 .card2__text{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 40px;
 }
+
+
 
 
 /* card */
