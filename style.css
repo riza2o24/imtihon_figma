@@ -506,7 +506,7 @@
     grid-row: 2/3;
 }
 
-.card__box:nth-child(7){   
+.card__box:nth-child(8){   
     grid-column: 4/5;
     grid-row: 2/3;
 }
@@ -1032,5 +1032,142 @@
         grid-column: 1/2;
         grid-row: 4/4;        
     }
+
+
+    /* box */
+    .box{
+        display: none;
+    }
+
+    /* card */
+    .card{
+        margin-bottom: 70px;
+    }
+
+
+    .cards2__text{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cards2__text--text{
+        font-size: 18px;
+    }
+
+    .cards2__text--paragrf{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    .card__boxx{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 8, 1fr;
+        justify-content: center;
+    }
+
+    
+.card__box:first-child{   
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.card__box:nth-child(2){   
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.card__box:nth-child(3){   
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.card__box:nth-child(4){   
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.card__box:nth-child(5){   
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.card__box:nth-child(6){   
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.card__box:nth-child(7){   
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+
+.card__box:nth-child(8){   
+    grid-column: 1/2;
+    grid-row: 8/9;
+}
+
+    .image__img{
+        display: none;
+    }
+
+    .image__img2{
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .QWERTYU{
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 150px;
+    }
+
+    .image__img2--text{
+        font-size: 15px;
+    }
+
+    .image__img2--paragrf{
+        font-size: 12px;
+    }
+
+    .image__img2--btn{
+        padding: 7px 15px;
+        font-size: 10px;
+    }
+
+
+    /* quti */
+    .quti{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 3, 1fr;
+        justify-content: center;
+    }
+
+
+    .qutisi:last-child{
+        justify-content: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .qutisi:nth-child(2){
+       display: none;
+    }
+
+    .qutisi:nth-child(3){
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .qutisi__card{
+        display: flex;
+        justify-content: center;
+    }
+
+    
 }
 
