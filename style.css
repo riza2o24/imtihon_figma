@@ -1186,8 +1186,15 @@
     }
 
     .brand__box{
-        display: block;
+        
+        width: 100%;
+        display: grid;
         justify-content: center;
+    }
+
+    .brand__box--image{
+        margin: auto;
+        
     }
 }
 
