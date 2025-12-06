@@ -1145,6 +1145,7 @@
         grid-template-columns: 1, 1fr;
         grid-template-rows: 3, 1fr;
         justify-content: center;
+        margin-bottom: 70px;
     }
 
 
@@ -1168,6 +1169,25 @@
         justify-content: center;
     }
 
-    
+    .qutisi__box--tetx{
+        font-size: 18px;
+    }
+
+    .qutisi__box{
+        display: flex;
+        justify-content: center;
+        gap: 180px;
+    }
+
+
+    /* brend */
+    .brand__text{
+        font-size: 20px;
+    }
+
+    .brand__box{
+        display: block;
+        justify-content: center;
+    }
 }
 
