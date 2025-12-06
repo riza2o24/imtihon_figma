@@ -1196,5 +1196,38 @@
         margin: auto;
         
     }
+
+    /* img__boxx */
+    .img__boxx{
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .img__boxx--img{
+        display: none;
+    }
+    
+
+    /* footer */
+    .footer__text{
+        text-align: center;
+        display: block;
+    }
+
+    .footer__ul{
+        margin-top: 60px;
+    }
+
+
+    .footer__botton{
+        text-align: center;
+        display: block;
+    }
+
+    .footer__botton--paragrf{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
 
