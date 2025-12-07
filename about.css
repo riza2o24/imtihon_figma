@@ -336,3 +336,36 @@
 .footer__botton--span{
     color: #9F86D9;
 }
+
+
+
+
+
+@media (max-width:428px) {
+    .conteiner{
+        width: 100%;
+        max-width: 428px;
+        padding: 0 10px;
+        margin: auto;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__image{
+        display: flex;
+    }
+
+    .signup{
+        display: none;
+    }
+
+
+}
