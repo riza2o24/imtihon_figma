@@ -450,6 +450,7 @@
         padding: 30px;
         margin-top: 70px;
         height: auto;
+        margin-bottom: 70px;
     }
 
     .image__text{
@@ -491,4 +492,41 @@
         grid-column: 1/2;
         grid-row: 6/7;
     }
+
+
+    /* cards */
+    .cards__text{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .card{
+        display: block;
+    }
+
+    .card__box{
+        width: 380px;
+        margin-bottom: 30px;
+    }
+
+    .card__box--paragrf{
+        width: 360px;
+        font-size: 14px;
+    }
+
+    /* text */
+    .texts{
+        display: block;
+    }
+
+    .texts__text{
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .texts__paragrf{
+        width: 380px;
+    }
 }
+
