@@ -434,6 +434,11 @@
     }
 
     /* grid */
+
+    .card2{
+        width: 370px;
+    }
+
     .section{
         display: none;
     }
@@ -453,6 +458,24 @@
 
     .section2{
         display: none;
+    }
+
+    .card__box--image{
+        width: 370px;
+    }
+
+    .card__box--text{
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .section__paragrf{
+        font-size: 14px;
+    }
+
+    .card__box--paragrf{
+        width: 350px;
+        font-size: 14px;
     }
 
     /* footer */
