@@ -297,6 +297,7 @@
         display: block;
         text-align: center;
         justify-content: center;
+        margin-bottom: 60px;
     }
 
     .contact__brend--box{
@@ -304,6 +305,11 @@
         display: block;
         margin: auto;
         margin-top: 30px;
+    }
+
+    /* section2 */
+    .section2{
+        display: none;
     }
 
     /* footer */
