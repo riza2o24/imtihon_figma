@@ -226,3 +226,56 @@
 .footer__botton--span{
     color: #9F86D9;
 }
+
+
+
+
+
+@media (max-width:428px) {
+
+     .conteiner{
+        width: 100%;
+        max-width: 428px;
+        padding: 0 10px;
+        margin: auto;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__image{
+        display: flex;
+    }
+
+    .signup{
+        display: none;
+    }
+
+    /* footer */
+    .footer__text{
+        text-align: center;
+        display: block;
+    }
+
+    .footer__ul{
+        margin-top: 60px;
+    }
+
+
+    .footer__botton{
+        text-align: center;
+        display: block;
+    }
+
+    .footer__botton--paragrf{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
