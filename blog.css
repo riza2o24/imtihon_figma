@@ -405,6 +405,13 @@
         display: none;
     }
 
+
+    .blog__paragrf{
+        margin: 0;
+        display: flex;
+        
+    }
+
     /* footer */
     .footer__text{
         text-align: center;
