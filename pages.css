@@ -23,6 +23,8 @@
 }
 
 
+
+
 /* header */
 .header{
     width: 100%;
@@ -257,6 +259,36 @@
     .signup{
         display: none;
     }
+
+
+    .section{
+        display: block;
+        padding: 0;
+        height: 600px;
+    }
+
+    .section__image{
+        width: 408px;
+        height: 410px;
+    }
+
+    .section__text{
+        padding: 20px;
+    }
+
+    .section__text--text{
+        font-size: 24px;
+    }
+
+    .section__text--paragrf{
+        width: 350px;
+        font-size: 15px;
+    }
+
+    .section__text--paragrff{
+        font-size: 15px;
+    }
+
 
     /* footer */
     .footer__text{
