@@ -412,6 +412,49 @@
         
     }
 
+    /* blog */
+    .blog{
+        height: 250px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .blog__paragrf{
+        display: none;
+    }
+
+    .blog__image{
+        display: none;
+    }
+
+    .blog__text{
+        position: absolute;
+        left: 80px;
+    }
+
+    /* grid */
+    .section{
+        display: none;
+    }
+
+    .card2{
+        display: block;
+    }
+
+    .card__box{
+        margin-bottom: 40px;
+    }
+
+    .qwert{
+        display: block;
+    }
+
+
+    .section2{
+        display: none;
+    }
+
     /* footer */
     .footer__text{
         text-align: center;
