@@ -261,6 +261,8 @@
     }
 
 
+
+    /* section */
     .section{
         display: block;
         padding: 0;
@@ -289,6 +291,20 @@
         font-size: 15px;
     }
 
+
+    /* card */
+    .contact__brend{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact__brend--box{
+        width: 250px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
 
     /* footer */
     .footer__text{
