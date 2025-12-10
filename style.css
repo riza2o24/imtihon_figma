@@ -95,7 +95,7 @@
 .header__nav{
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 34px;
 }
 
 .header__nav--link{
